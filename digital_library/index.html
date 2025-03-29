@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Library Management System</title>
+
+</head>
+<body>
+    <header>
+        <h1>Library Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#qr">QR Code</a></li>
+                <li><a href="#penalty">Penalty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="Sigin.html" class="signin">Sign In</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to the Library</h2>
+        <p>Manage book borrowing, returns, and user information efficiently.</p>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search for books...">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="recommendations">
+            <h3>Recommended Books</h3>
+            <div class="book-list">
+                <div>1984 - George Orwell</div>
+                <div>Harry Potter - J.K. Rowling</div>
+                <div>The Alchemist - Paulo Coelho</div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="books">
+        <h2>Books Collection</h2>
+        <p>Browse and search available books in our library.</p>
+        <div class="book-container">
+            <div class="book">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg" alt="The Great Gatsby">
+                <p>The Great Gatsby</p>
+            </div>
+            <div class="book">
+                <img src="https://demork.cloudpub.in/Content/Uploadfiles/Title/97899/3774/6823/CoverPage/CoverLowResolution/9789937746823.png" alt="ijoria">
+                <p>ijoria</p>
+            </div>
+            <div class="book">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrwlz2Vnc89dhyhOaWxZrM0hgHwIAlRu4RgxhBm9qDzcDAQ4mn" alt="The Source of Self-Regard">
+                <p>The Source of Self-Regard</p>
+            </div>
+            <div class="book">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYmbzNKfAaFp4CkkW7NKPXzA8lsPevtCP8pBcQ5UXaNoFv5Bzy" alt="Muna-Madan">
+                <p>Muna-Madan</p>
+            </div>
+            <div class="book">
+                <img src="https://miro.medium.com/v2/resize:fit:325/1*K9zK3FPqqrb8mJ_xdbTgBA.jpeg" alt="The Old Man and the Sea">
+               <p>The Old Man and the Sea</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="dashboard">
+        <h2>User Dashboard</h2>
+        <p>Access your borrowed books, return status, and penalties.</p>
+    </section>
+    
+    <section id="qr">
+        <h2>QR Code</h2>
+        <p>View QR Code for book details.</p>
+        <img src="./Image/qrcode.png" alt="QR Code">
+    </section>
+    
+    <section id="penalty">
+        <h2>Penalty Tracking</h2>
+        <p>Check penalties for overdue books.</p>
+        <table>
+            <tr>
+                <th>User ID</th>
+                <th>Book Title</th>
+                <th>Days Overdue</th>
+                <th>Penalty Amount</th>
+            </tr>
+            <tr>
+                <td>U123</td>
+                <td>Pride and Prejudice</td>
+                <td>5</td>
+                <td>$2.50</td>
+            </tr>
+        </table>
+        <h3>Penalty Statistics</h3>
+        <p>Total Overdue Books: 10</p>
+        <p>Total Penalty Collected: $25.00</p>
+        <p>Most Frequent Defaulter: User U456</p>
+    </section>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out for inquiries and support.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Library Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
